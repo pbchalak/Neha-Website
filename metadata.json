@@ -1,0 +1,6 @@
+{
+  "name": "Green Garden – Nursery Plant Management",
+  "description": "Nursery plant catalogue, plant care guides, online shopping, and nursery inventory, supplier, and order management system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

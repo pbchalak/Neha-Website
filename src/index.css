@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "Space Mono", monospace;
+  --color-leaf-50: #F4F8F4;
+  --color-leaf-100: #E6EFE6;
+  --color-leaf-600: #2D5A3C;
+  --color-leaf-700: #234830;
+  --color-leaf-800: #1B3926;
+  --color-earth-100: #F6F3EE;
+  --color-earth-200: #EDE6DC;
+  --color-earth-700: #785A3C;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAFAF7;
+  color: #1A261D;
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-serif);
+}
+
+/* Custom scrollbars for clean nursery feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1EFEA;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8D1C7;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #99A897;
+}
